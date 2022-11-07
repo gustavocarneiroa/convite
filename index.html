@@ -1,66 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=div, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
     <style>
         body {
             background-color: black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } 
+        }
 
         .full_width {
             width: 100%;
         }
 
-        .full_width > * {
+        .full_width>* {
             width: 100%;
         }
     </style>
-    <title>Document</title>
+    <title>Convite de aniversário</title>
 </head>
-<body">
+
+<body style="display: none; background-image: url(./emo_background.png);background-repeat: repeat;background-size: contain;">
     <div class="ui raised very padded text container segment" style="background-color:#131313">
         <div class="ui link cards">
             <div class="ui centered card">
-              <div class="image" style="background: #2c2c2c">
-                <img src="https://source.boringavatars.com/beam/120?colors=264653,f4a261,e76f51">
-              </div>
-              <div class="content">
-                <div class="header">Oi <b id="name">@pessoaquerida</b></div>
-                <div class="description">
-                    Confirma aqui se você vai poder ou não ir para a festinha de aniversário
+                <div class="image" style="background: #2c2c2c">
+                    <img src="emo cat.png">
                 </div>
-              </div>
-              <div class="extra content">
-                <div style="display: flex;flex-direction: column;align-items: center;">
-                    <a class="full_width"  href="https://api.whatsapp.com/send/?phone=5585989390844&text=PRESENÇA%20CONFIRMADA!%20✅%20%0aEstarei%20no%20seu%20aniversário%20no%20dia%20*03/12*%20a%20partir%20das%2017:00hrs%20%0a%0a%20PIX:%20kessia.liima2014@gmail.com%20&type=phone_number&app_absent=0">
-                        <button class="ui basic positive button">
-                          Presença confirmada!
-                      </button>
-                    </a>
-                    <a class="full_width" style="margin-top: 3%;" href="https://api.whatsapp.com/send/?phone=5585989390844&text=AUSÊNCIA%20CONFIRMADA!%20😔%20%0aInfelizmente não poderei ir ao seu aniversário.&type=phone_number&app_absent=0">
-                        <div class="ui basic negative button">
-                            Não posso ir
-                        </div>
-                    </a> 
-                    <a class="full_width"  style="margin-top: 10%" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NGZ2cHRnMm05YWdjbjBzczdoamk2bDZnYW4gZ3VzdGF2aW5oby5zb2NpYWwzMzNAbQ&amp;tmsrc=gustavinho.social333%40gmail.com">
-                        <div class="ui basic blue button">
-                            Adicionar ao calendário do Google
-                        </div>
-                    </a>
+                <div class="content">
+                    <div class="header">Oi <b id="name">@pessoaquerida</b></div>
+                    <div class="description">
+                        Confirma aqui se você vai poder ou não ir para a festinha de aniversário
+                    </div>
                 </div>
-                <div class="ui one buttons">
+                <div class="extra content">
+                    <div style="display: flex;flex-direction: column;align-items: center;">
+                        <a class="full_width"
+                            href="https://api.whatsapp.com/send/?phone=5585989390844&text=PRESENÇA%20CONFIRMADA!%20✅%20%0aEstarei%20no%20seu%20aniversário%20no%20dia%20*03/12*%20a%20partir%20das%2017:00hrs%20%0a%0a%20PIX:%20kessia.liima2014@gmail.com%20&type=phone_number&app_absent=0">
+                            <button class="ui basic positive button">
+                                Presença confirmada!
+                            </button>
+                        </a>
+                        <a class="full_width" style="margin-top: 3%;"
+                            href="https://api.whatsapp.com/send/?phone=5585989390844&text=AUSÊNCIA%20CONFIRMADA!%20😔%20%0aInfelizmente não poderei ir ao seu aniversário.&type=phone_number&app_absent=0">
+                            <div class="ui basic negative button">
+                                Não posso ir
+                            </div>
+                        </a>
+                        <a class="full_width" style="margin-top: 10%" target="_blank"
+                            href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NGZ2cHRnMm05YWdjbjBzczdoamk2bDZnYW4gZ3VzdGF2aW5oby5zb2NpYWwzMzNAbQ&amp;tmsrc=gustavinho.social333%40gmail.com">
+                            <div class="ui basic blue button">
+                                Adicionar ao calendário do Google
+                            </div>
+                        </a>
+                        <a class="full_width" style="margin-top: 10%" target="_blank" href="https://goo.gl/maps/VNzTREJqjRTeF7UVA">
+                        <div class="ui blue button">
+                            Ver no Maps
+                        </div>
+                    </a>
 
+                        
+                        
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+            <iframe style="border-radius:12px;margin-top:10%" src="https://open.spotify.com/embed/playlist/6UCtt1mmX8sFaa5a76ZOKr?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
     </div>
+    <script defer>c = ' aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZã'.split('');e=function(a){document.body.style.display='flex';document.querySelector('#name').innerText = a;};((b, d)=>{a=new URL(window.location.href).searchParams.get(b);d.includes(a)?e(a):document.querySelector('body').innerHTML=''})('XpAvwrft9r', [c[4] + c[9] + c[23],c[36] + c[29] + c[3] + c[9] + c[35] + c[39] + c[29],c[40] + c[1] + c[17] + c[37],c[22] + c[9] + c[23] + c[23] + c[43] + c[17] + c[1],c[46] + c[1] + c[27] + c[7] + c[9] + c[35] + c[37] + c[29] + c[27], c[2] + c[7] + c[17] + c[27] + c[1] + c[13] + c[9] + c[23] + c[1],c[28] + c[1] + c[7] + c[17] + c[1], c[22] + c[1] + c[17] + c[23] + c[1] + c[27] + c[9], c[8] + c[1] + c[27] + c[17] + c[9] + c[23] + c[23] + c[9], c[6] + c[1] + c[35] + c[29] + c[23] + c[17] + c[27] + c[49], c[2] + c[23] + c[9] + c[47] + c[1] + c[27] + c[7] + c[35] + c[9], c[24] + c[9] + c[29] + c[27] + c[9], c[44] + c[17] + c[23] + c[25] + c[1], c[2] + c[23] + c[9] + c[37] + c[37] + c[1] + c[27] + c[7] + c[35] + c[1], c[32] + c[1] + c[41] + c[23] + c[29], c[36] + c[1] + c[27] + c[27] + c[1] + c[15], c[22]+c[9]+c[37]+c[37]+c[17]+c[1],c[44] + c[17] + c[5] + c[9] + c[27] + c[39] + c[9], c[28] + c[1] + c[17] + c[1] + c[35] + c[1], c[44] + c[17] + c[27] + c[17] + c[5] + c[17] + c[41] + c[37], c[6] + c[1] + c[25] + c[17] + c[23] + c[1], c[14] + c[1] + c[3] + c[17], c[18] + c[27] + c[13] + c[35] + c[17] + c[7], c[14] + c[41] + c[17] + c[23] + c[15] + c[9] + c[35] + c[25] + c[9], c[2] + c[27] + c[7] + c[35] + c[9] + c[37] + c[37] + c[1], c[6] + c[1] + c[17] + c[27] + c[53], c[28] + c[1] + c[17] + c[51] + c[1], c[28] + c[1] + c[17] + c[35] + c[29], c[14]+c[41]+c[37]+c[39]+c[1]+c[43]+c[29]])</script>
 </body>
+
 </html>
